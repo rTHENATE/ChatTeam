@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<title>rTN-ChatTeamLogin</title>
+	</head>
+	<body>
+		<div class="join-container">
+			<header class="join-header">
+				<h1> ChatTeam <i class="far fa-comment"></i></h1>
+			</header>
+			
+			<main class="join-main">
+				<form action="chat.html">
+					<div class="form-control">
+						<label for="username">ชื่อผู้ใช้</label>
+						<input
+							type="text"
+							name="username"
+							id="username"
+							placeholder="ป้อนชื่อผู้ใช้..."
+							required
+						/>
+					</div>
+					<div class="form-control">
+						<label for="room">ห้อง</label>
+						<select name="room" id="room">
+							<option value="testroom 1">testroom 1</option>
+							<option value="testroom 2">testroom 2</option>
+							<option value="testroom 3">testroom 3</option>
+							<option value="testroom 4">testroom 4</option>
+							<option value="testroom 5">testroom 5</option>
+							<option value="testroom 6">testroom 6</option>
+						</select>
+					</div>
+					
+					<button type="submit" class="btn">เข้าร่วมแชท</button>
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
